@@ -13,7 +13,6 @@ def make():
             else:
                 countList[i+1][j+1] += countList[i][j]
                 countList[i+1][j-1] += countList[i][j]
-            
                 
 n = int(stdin.readline())
 
